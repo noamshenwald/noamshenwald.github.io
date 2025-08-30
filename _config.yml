@@ -2,3 +2,6 @@
 #title: Noam Shenwald's homepage
 #description: Bookmark this to keep an eye on my project updates!
 title: ""
+format:
+  html:
+    page-layout: full
