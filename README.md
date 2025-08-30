@@ -48,7 +48,7 @@ My research focuses on on the connection between reactive synthesis and algorith
 
 ---
 
-## <i class="fas fa-comment"></i> Contact Me
+## <i class="fa-regular fa-comment"></i> Contact Me
 
 - **Email:** firstname.lastname@mail.huji.ac.il 
 
