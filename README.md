@@ -10,7 +10,7 @@ Research focuses on reactive synthesis and algorithmic game theory.
 ### Coverage Games
 **Authors:** Orna Kupferman and Noam Shenwald  
 **Conference:** CONCUR 2025  
-[PDF](papers/coverage games.pdf) | [Full Version](papers/coverage-games-full-version.pdf)
+[PDF](papers/coverage games.pdf) | [Full Version (under review)](papers/coverage-games-full-version.pdf)
 
 ### Positional-Player Games
 **Authors:** Orna Kupferman and Noam Shenwald  
@@ -30,12 +30,12 @@ Research focuses on reactive synthesis and algorithmic game theory.
 ### Games with Trading of Control
 **Authors:** Orna Kupferman and Noam Shenwald  
 **Conference:** CONCUR 2023  
-[PDF](papers/Games with Trading of Control.pdf) | [Full Version](papers/games-with-trading-of-control-full-version.pdf)
+[PDF](papers/Games with Trading of Control.pdf) | [Full Version (under review)](papers/games-with-trading-of-control-full-version.pdf)
 
 ### The Complexity of LTL Rational Synthesis
 **Authors:** Orna Kupferman and Noam Shenwald  
 **Conference:** TACAS 2022  
-[PDF](papers/The Complexity of LTL Rational Synthesis.pdf) | [Full Version](https://dl.acm.org/doi/10.1145/3648473)
+[PDF](papers/The Complexity of LTL Rational Synthesis.pdf) | [Full Version (ToCL 2024)](https://dl.acm.org/doi/10.1145/3648473)
 
 ### Perspective Multi-Player Games
 **Authors:** Orna Kupferman and Noam Shenwald  
