@@ -25,7 +25,7 @@ Research focuses on reactive synthesis and algorithmic game theory.
 ### Games with Weighted Multiple Objectives
 **Authors:** Orna Kupferman and Noam Shenwald  
 **Conference:** ATVA 2024  
-[PDF](https://github.com/noamshenwald/noamshenwald.github.io/blob/main/papers/Games%20with%20Weighted%20Multiple%20Objectives.pdf)
+[Open PDF](papers/Games with Weighted Multiple Objectives.pdf)
 
 ### Games with Trading of Control
 **Authors:** Orna Kupferman and Noam Shenwald  
