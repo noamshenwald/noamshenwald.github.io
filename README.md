@@ -40,7 +40,7 @@ I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, adv
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
 <div style="width: 100%; padding:50px; background-color: #F5F9FD; box-sizing: border-box;">
-  <h1 align="center">
+    <h1 align="center">
     Noam Shenwald
   </h1>
 
@@ -56,8 +56,8 @@ My research focuses on the connection between reactive synthesis and algorithmic
 ---
 
 <!--## Publications-->
-<h2 align="center">
-  Publications
+ <h2 align="center">
+  <img src="https://cdn-icons-png.flaticon.com/128/14382/14382061.png" width="24"/> Publications
 </h2>
 
 <!-- Publication 1 -->
@@ -364,7 +364,7 @@ FST&TCS 2020
 
 <div align="center" style="width: 100%; padding:50px;color: white; background-color: #001f4d; box-sizing: border-box;">
   <h2>
-  Get In Touch
+ <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style="filter: invert(1);"/> Get In Touch
 </h2>
 
 <h3>
