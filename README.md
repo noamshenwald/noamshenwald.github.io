@@ -364,7 +364,7 @@ FST&TCS 2020
 
 <div align="center" style="width: 100%; padding:50px;color: white; background-color: #001f4d; box-sizing: border-box;">
   <h2>
- <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style="filter: invert(1);"/> Get In Touch
+ <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style=" filter:brightness(0) invert(1)"/> Get In Touch
 </h2>
 
 <h3>
