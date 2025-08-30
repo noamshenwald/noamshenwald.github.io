@@ -9,8 +9,8 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <!-- Publication 1 -->
 **Coverage Games**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** CONCUR 2025  
+Orna Kupferman, Noam Shenwald  
+CONCUR 2025  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/coverage games.pdf')">PDF</button>
@@ -47,8 +47,8 @@ year      = {2025}
 
 <!-- Publication 2 -->
 **Positional-Player Games**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** MFCS 2025  
+Orna Kupferman, Noam Shenwald  
+MFCS 2025  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Positional-Player Games.pdf')">PDF</button>
@@ -84,8 +84,8 @@ year      = {2025}
 
 <!-- Publication 3 -->
 **Non-Zero-Sum Games with Multiple Weighted Objectives**  
-**Authors:** Yoav Feinstein, Orna Kupferman, Noam Shenwald  
-**Conference:** TACAS 2025  
+Yoav Feinstein, Orna Kupferman, Noam Shenwald  
+TACAS 2025  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')">PDF</button>
@@ -122,8 +122,8 @@ year        =   2025
 
 <!-- Publication 4 -->
 **Games with Weighted Multiple Objectives**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** ATVA 2024  
+Orna Kupferman, Noam Shenwald  
+ATVA 2024  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')">PDF</button>
@@ -160,8 +160,8 @@ year        =   2025
 
 <!-- Publication 5 -->
 **Games with Trading of Control**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** CONCUR 2023  
+Orna Kupferman, Noam Shenwald  
+CONCUR 2023  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Games with Trading of Control.pdf')">PDF</button>
@@ -198,12 +198,12 @@ year        =   2025
 
 <!-- Publication 6 -->
 **The Complexity of LTL Rational Synthesis**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** TACAS 2022  
+Orna Kupferman, Noam Shenwald  
+TACAS 2022  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/The Complexity of LTL Rational Synthesis.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')">Full Version</button>
+  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')">Full Version (ACM ToCL 2024)</button>
   <button class="popupBtn" data-popup="abstract6" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib6" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
@@ -237,8 +237,8 @@ year        =   2025
 
 <!-- Publication 7 -->
 **Perspective Multi-Player Games**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** LICS 2021  
+Orna Kupferman, Noam Shenwald  
+LICS 2021  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Perspective Multi-Player Games.pdf')">PDF</button>
@@ -272,8 +272,8 @@ year        =   2025
 
 <!-- Publication 8 -->
 **Perspective Games with Notifications**  
-**Authors:** Orna Kupferman, Noam Shenwald  
-**Conference:** FST&TCS 2020  
+Orna Kupferman, Noam Shenwald  
+FST&TCS 2020  
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Perspective Games with Notifications.pdf')">PDF</button>
