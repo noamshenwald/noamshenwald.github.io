@@ -14,14 +14,14 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/coverage games.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/coverage-games-full-version.pdf')">Full Version</button>
+  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/coverage-games-full-version.pdf')">Full Version (under review)</button>
   <button class="popupBtn" data-popup="abstract1" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib1" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract1" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Coverage Games goes here.</p>
+    <p>We introduce and study coverage games -- a novel framework for multi-agent planning in settings in which a system operates several agents but do not have full control on them, or interacts with an environment that consists of several agents. The game is played between a coverer, who has a set of objectives, and a disruptor. The coverer operates several agents that interact with the adversarial disruptor. The coverer wins if every objective is satisfied by at least one agent. Otherwise, the disruptor wins. Coverage games thus extend traditional two-player games with multiple objectives by allowing a (possibly dynamic) decomposition of the objectives among the different agents. They have many applications, both in settings where the system is the coverer (e.g., multi-robot surveillance, coverage in multi-threaded systems) and settings where it is the disruptor (e.g., prevention of resource exhaustion, ensuring non-congestion). We study the theoretical properties of coverage games, including determinacy, and the ability to a priori decompose the objectives among the agents. We solve the problems of deciding whether the coverer or the disruptor wins, analyze their tight complexity, and consider useful special cases.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -29,11 +29,14 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib1" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2025coverage,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {Coverage Games},
-  booktitle = {CONCUR 2025},
-  year = {2025}
+@inproceedings{KS25,
+author    = {O. Kupferman and N. Shenwald},
+title     = {Coverage Games},
+booktitle =  concur25,
+series    = {LIPIcs},
+volume    = {?},
+pages     = ?,
+year      = {2025}
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
@@ -49,14 +52,13 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Positional-Player Games.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('#')">Full Version</button>
   <button class="popupBtn" data-popup="abstract2" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib2" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract2" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Positional-Player Games goes here.</p>
+    <p>In reactive synthesis, we transform a specification to a system that satisfies the specification in all environments. For specifications in linear-temporal logic, research on bounded synthesis, where the sizes of the system and the environment are bounded, captures realistic settings and has lead to algorithms of improved complexity and implementability. In the game-based approach to synthesis, the system and its environment are modeled by strategies in a two-player game with an \omega-regular objective, induced by the specification. There, bounded synthesis corresponds to bounding the memory of the strategies of the players. The memory requirement for various objectives has been extensively studied. In particular, researchers have identified positional objectives, where the winning player can follow a memoryless strategy -- one that needs no memory. In this work we study bounded synthesis in the game setting. Specifically, we define and study positional-player games, in which one or both players are restricted to memoryless strategies, which correspond to non-intrusive control in various applications. We study positional-player games with Rabin, Streett, and \muller objectives, as well as with weighted multiple Buchi and reachability objectives. Our contribution covers their theoretical properties as well as a complete picture of the complexity of deciding the game in the various settings.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -64,11 +66,14 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib2" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2025positional,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {Positional-Player Games},
-  booktitle = {MFCS 2025},
-  year = {2025}
+@inproceedings{KS25b,
+author    = {O. Kupferman and N. Shenwald},
+title     = {Positional-Player Games},
+booktitle =  mfcs25,
+series    = {LIPIcs},
+volume    = {?},
+pages     = ?,
+year      = {2025}
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
@@ -84,14 +89,13 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('#')">Full Version</button>
   <button class="popupBtn" data-popup="abstract3" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib3" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract3" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Non-Zero-Sum Games with Multiple Weighted Objectives goes here.</p>
+    <p>We introduce and study non-zero-sum multi-player games with weighted multiple objectives. In these games, the objective of each player consists of a set \alpha of underlying objectives and a weight function w: 2^\alpha -> \Z that maps each subset X of \alpha to the utility of the player when exactly all the objectives in X are satisfied. The weight functions lift the setting of non-zero-sum multi-player games to the general quantitative case, allowing a rich reference to the underlying objectives. We study the existence and synthesis of stable outcomes with desired utilities for the players. The problem generalizes rational synthesis and enables the synthesis of outcomes that satisfy wellness, fairness, and priority requirements. We study the extension of the game by payments, with which players can incentivize each other to follow strategies that are beneficial for the paying player. We show how such payments can be used in order to repair systems. We study the complexity of the setting for various classes of weight functions. In particular, general weight functions are related to Muller objectives, and the synthesis problem for them is PSPACE-complete. We study non-decreasing, additive, positive, and other classes of weight functions, and the way they affect the memory required for the players and the complexity of the synthesis problem.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -99,11 +103,15 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib3" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{feinstein2025nonzerosum,
-  author = {Yoav Feinstein, Orna Kupferman, Noam Shenwald},
-  title = {Non-Zero-Sum Games with Multiple Weighted Objectives},
-  booktitle = {TACAS 2025},
-  year = {2025}
+@inproceedings{FKS25,
+author      =   "Yoav Feinstein and O. Kupferman and N. Shenwald",
+title       =   "Non-Zero-Sum Games with Multiple Weighted Objectives",
+booktitle   =   tacas25,
+pages       =   "?",
+series      =   lncs,
+volume      =   "?",
+publisher   =   springer,
+year        =   2025
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
@@ -119,14 +127,13 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('#')">Full Version</button>
   <button class="popupBtn" data-popup="abstract4" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib4" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract4" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Games with Weighted Multiple Objectives goes here.</p>
+    <p>Games with multiple objectives arise naturally in synthesis of reactive systems. We study games with weighted multiple objectives. The winning objective in such games consists of a set F of underlying objectives, and a weight function w: 2^F \rightarrow \N$ that maps each subset S of F to a reward earned when exactly all the objectives in S are satisfied. The goal of a player may be to maximize or minimize the reward. As a special case, we obtain games where the goal is to maximize or minimize the number of satisfied objectives, and in particular satisfy them all (a.k.a. generalized conditions). A weight function allows for a much richer reference to the underlying objectives: prioritizing them, referring to desired and less desired combinations, and addressing settings where we cannot expect all sub-specifications to be satisfied together. We focus on settings where the underlying objectives are all Buchi, co-Buchi, reachability, or avoid objectives, and the weight function is non-decreasing (a.k.a. free disposal). For each of the induced classes (that is, type of underlying condition, type of optimization, and type of weight function), we solve the problem of deciding the game and analyze its tight complexity. We also study the tight memory requirements for each of the players. Finally, we consider general weight functions, which make the setting similar to the one of Boolean Muller objectives.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -134,11 +141,15 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib4" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2024weighted,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {Games with Weighted Multiple Objectives},
-  booktitle = {ATVA 2024},
-  year = {2024}
+@inproceedings{KS24,
+        author      =   "O. Kupferman and N. Shenwald",
+        title       =   "Games with Weighted Multiple Objectives",
+        booktitle   =   atva24,
+        series    = {Lecture Notes in Computer Science},       
+        pages = {110--132},
+        volume = 15054,
+	publisher = {Springer}
+        year        =   2024
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
@@ -154,14 +165,14 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Games with Trading of Control.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')">Full Version</button>
+  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')">Full Version (under review)</button>
   <button class="popupBtn" data-popup="abstract5" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib5" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract5" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Games with Trading of Control goes here.</p>
+    <p>The interaction among components in a system is traditionally modeled by a game. In the turned-based setting, the players in the game jointly move a token along the game graph, with each player deciding where to move the token in vertices she controls. The objectives of the players are modeled by \omega-regular winning conditions, and players whose objectives are satisfied get rewards. Thus, the game is non-zero-sum, and we are interested in its stable outcomes. In particular, in the rational-synthesis problem, we seek a strategy for the system player that guarantees the satisfaction of the system's objective in all rational environments. In this paper, we study an extension of the traditional setting by trading of control. In our game, the players may pay each other in exchange for directing the token also in vertices they do not control. The utility of each player then combines the reward for the satisfaction of her objective and the profit from the trading. The setting combines challenges from \omega-regular graph games with challenges in pricing, bidding, and auctions in classical game theory. We study the theoretical properties of parity trading games: best-response dynamics, existence and search for Nash equilibria, and measures for equilibrium inefficiency. We also study the rational-synthesis problem and analyze its tight complexity in various settings.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -169,12 +180,15 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib5" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2023trading,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {Games with Trading of Control},
-  booktitle = {CONCUR 2023},
-  year = {2023}
-}
+@inproceedings{KS23,
+  author    = {O. Kupferman and N. Shenwald},
+  title     = {Games with Trading of Control},
+  booktitle =  concur23,
+  series    = {LIPIcs},
+   volume    = {279},
+  pages     = {19:1 -- 19:17},
+  year      = {2023}
+  }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
@@ -196,7 +210,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div id="abstract6" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for The Complexity of LTL Rational Synthesis goes here.</p>
+    <p>In rational synthesis, we automatically construct a reactive system that satisfies its specification in all rational environments, namely environments that have objectives and act to fulfill them. We complete the study of the complexity of LTL rational synthesis. Our contribution is threefold. First, we tighten the known upper bounds for settings that were left open in earlier work. Second, our complexity analysis is parametric, and we describe tight upper and lower bounds in each of the problem parameters: the game graph, the objectives of the system components, and the objectives of the environment components. Third, we generalize the definition of rational synthesis, combining the cooperative and non-cooperative approaches studied in earlier work, and extend our complexity analysis to the general definition.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -204,11 +218,15 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib6" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2022ltl,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {The Complexity of LTL Rational Synthesis},
-  booktitle = {TACAS 2022},
-  year = {2022}
+@inproceedings{KS22,
+        author      =   "O. Kupferman and N. Shenwald",
+        title       =   "On the Complexity of LTL Rational Synthesis",
+        booktitle   =   tacas22,
+        pages       =   "25-45",
+        series      =   lncs,
+        volume      =   "13243",
+        publisher   =   springer,
+        year        =   2022
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
@@ -224,14 +242,13 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Perspective Multi-Player Games.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('#')">Full Version</button>
   <button class="popupBtn" data-popup="abstract7" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib7" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract7" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Perspective Multi-Player Games goes here.</p>
+    <p>Perspective games model multi-agent systems in which agents can view only the parts of the system that they own. Unlike the observation-based model of partial visibility, where uncertainty is longitudinal -- agents partially observe the full history, uncertainty in perspective games is transverse -- agents fully observe parts of the history. So far, researchers studied zero-sum two-player perspective games. There, the objective of one agent (the system) is to satisfy a given specification, and the objective of the second agent (the environment) is to fail the specification. We study richer and more realistic settings of perspective games. We consider games with more than two players, and distinguish between zero-sum games, where the objectives of the players form a partition of all possible behaviors, zero-sum games among coalitions, where agents in a coalition share their objectives but do not share their visibility, and non-zero-sum games, where each agent has her own objectives and is assumed to be rational rather than hostile. In the non-zero-sum setting, we are interested in stable outcomes of the game; in particular, Nash equilibria. We show that, as is the case with longitudinal uncertainty, transverse uncertainty leads to undecidability in settings with three or more players that include coalitions or non-zero-sum objectives. We then focus on two-player non-zero-sum perspective games. There, finding and reasoning about stable outcomes is decidable, and in fact, unlike the case with longitudinal uncertainty, can be done in the same complexity as in games with full visibility. In particular, we study rational synthesis in the perspective setting, where the goal is to generate systems that satisfy their specification when interacting with rational environments. Our study includes Boolean objectives given by automata or LTL formulas, as well as a multi-valued setting, where the objectives are FLTL formulas with satisfaction values in [0,1], and the agents aim to maximize the satisfaction value of their objectives.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -239,11 +256,12 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib7" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2021perspective,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {Perspective Multi-Player Games},
-  booktitle = {LICS 2021},
-  year = {2021}
+@inproceedings{KS21,
+        author      =   "O. Kupferman and N. Shenwald",
+        title       =   "Perspective Multi-Player Games",
+        booktitle   =   lics21,
+        pages       =  "1--13",
+        year        =  2021
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
@@ -259,14 +277,13 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;">
   <button style="background-color:#2ea44f;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/Perspective Games with Notifications.pdf')">PDF</button>
-  <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('#')">Full Version</button>
   <button class="popupBtn" data-popup="abstract8" style="background-color:#f6c744;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib8" style="background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 </div>
 
 <div id="abstract8" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-    <p>Abstract for Perspective Games with Notifications goes here.</p>
+    <p>A reactive system has to satisfy its specification in all environments. Accordingly, design of correct reactive systems corresponds to the synthesis of winning strategies in games that model the interaction between the system and its environment. The game is played on a graph whose vertices are partitioned among the players. Starting from an initial vertex, the players jointly generate a computation, with each player deciding the successor vertex whenever the generated computation reaches a vertex she owns. The objective of the system player is to force the generated computation to satisfy a given specification. The traditional way of modelling uncertainty in such games is observation-based. There, uncertainty is longitudinal: the players partially observe all vertices in the history. Recently, researchers introduced {\em perspective games}, where uncertainty is transverse: players fully observe the vertices they own and have no information about the behavior of the computation between visits in such vertices. We introduce and study {\em perspective games with notifications}: uncertainty is still transverse, yet a player may be notified about events that happen between visits in vertices she owns. We distinguish between structural notifications, for example about visits in some vertices, and behavioral notifications, for example about the computation exhibiting a certain behavior. We study the theoretic properties of perspective games with notifications, and the problem of deciding whether a player has a winning perspective strategy. Such a strategy depends only on the visible history, which consists of both visits in vertices the player owns and notifications during visits in other vertices. We show that the problem is EXPTIME-complete for objectives given by a deterministic or universal parity automaton over an alphabet that labels the vertices of the game, and notifications given by a deterministic satellite, and is 2EXPTIME-complete for LTL objectives. In all cases, the complexity in the size of the graph and the satellite is polynomial -- exponentially easier than games with observation-based partial visibility. We also analyze the complexity of the problem for richer types of satellites.</p>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
   </div>
 </div>
@@ -274,11 +291,14 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div id="bib8" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
     <pre>
-@inproceedings{shenwald2020perspective,
-  author = {Orna Kupferman and Noam Shenwald},
-  title = {Perspective Games with Notifications},
-  booktitle = {FST&TCS 2020},
-  year = {2020}
+@inproceedings{KS20,
+  author    = {O. Kupferman and N. Shenwald},
+  title     = {Perspective Games with Notifications},
+  booktitle = fsttcs20,
+  volume = "182",
+  pages = "51:1-51:16",
+  series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  year      = {2020}
 }
     </pre>
     <button class="closeBtn" style="margin-top:10px;background-color:#d73a49;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Close</button>
