@@ -53,7 +53,10 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 ---
 
-## Publications
+<!--## Publications-->
+<h2 align="center">
+  Publications
+</h2>
 
 <!-- Publication 1 -->
 **Coverage Games**  
@@ -356,6 +359,10 @@ FST&TCS 2020
 ---
 
 ## Contact Me
+
+<h2 align="center">
+  Get In Touch
+</h2>
 
 **Email:** firstname.lastname@mail.huji.ac.il
 
