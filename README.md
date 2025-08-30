@@ -40,15 +40,17 @@ I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, adv
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
 <div style="margin:5px;padding:50px;background-color: #F5F9FD;">
-<h1 align="center">
-  Noam Shenwald
-</h1>
+  <h1 align="center">
+    Noam Shenwald
+  </h1>
 
-<p align="center" style="font-size: 1.2em;">
-  I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
-My research focuses on the connection between reactive synthesis and algorithmic game theory.
-</p>
- 
+  <p align="center" style="font-size: 1.2em;">
+    I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by 
+    <a href="https://www.cs.huji.ac.il/~ornak/" target="_blank" style="color: #1a0dab; text-decoration: none;">
+      Orna Kupferman
+    </a>.  
+    My research focuses on the connection between reactive synthesis and algorithmic game theory.
+  </p>
 </div>
 
 ---
