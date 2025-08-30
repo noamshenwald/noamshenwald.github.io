@@ -360,7 +360,7 @@ FST&TCS 2020
 
 ---
 
-## Contact Me
+<!--## Contact Me-->
 
 <h2 align="center">
   Get In Touch
