@@ -1,8 +1,7 @@
 # Noam Shenwald
 
-PhD student in Computer Science at the Hebrew University of Jerusalem, advised by Orna Kupferman.  
-Research focuses on reactive synthesis and algorithmic game theory.
-
+I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
+My research focuses on on the connection between reactive synthesis and algorithmic game theory.
 ---
 
 ## Publications
