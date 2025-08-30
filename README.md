@@ -1,3 +1,21 @@
+<style>
+/* Common button style */
+.pub-btn {
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Darken slightly on hover */
+.pub-btn:hover {
+    background-color: #0255b5; /* slightly darker blue */
+}
+</style>
+
 # Noam Shenwald
 
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
