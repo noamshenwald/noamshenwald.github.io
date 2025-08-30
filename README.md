@@ -34,7 +34,7 @@ My research focuses on on the connection between reactive synthesis and algorith
 ### The Complexity of LTL Rational Synthesis
 **Authors:** Orna Kupferman and Noam Shenwald  
 **Conference:** TACAS 2022  
-[PDF](papers/The Complexity of LTL Rational Synthesis.pdf) | [Full Version (ToCL 2024)](https://dl.acm.org/doi/10.1145/3648473)
+[PDF](papers/The Complexity of LTL Rational Synthesis.pdf) | [Full Version (ACM ToCL 2024)](https://dl.acm.org/doi/10.1145/3648473)
 
 ### Perspective Multi-Player Games
 **Authors:** Orna Kupferman and Noam Shenwald  
