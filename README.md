@@ -362,11 +362,19 @@ FST&TCS 2020
 
 <!--## Contact Me-->
 
-<h2 align="center">
+<div align="center" style="width: 100%; padding:50px; background-color: #001f4d; box-sizing: border-box;">
+  <h2>
   Get In Touch
 </h2>
 
-**Email:** firstname.lastname@mail.huji.ac.il
+<h3>
+  I'm always interested in discussing research collaborations
+</h3>
+
+  <p align="center" style="font-size: 1.2em;">
+    email: firstname.lastname@mail.huji.ac.il
+  </p>
+</div>
 
 ---
 
