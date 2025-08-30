@@ -362,7 +362,7 @@ FST&TCS 2020
 
 <!--## Contact Me-->
 
-<div align="center" style="width: 100%; padding:50px; background-color: #001f4d; box-sizing: border-box;">
+<div align="center" style="width: 100%; padding:50px;color: white; background-color: #001f4d; box-sizing: border-box;">
   <h2>
   Get In Touch
 </h2>
