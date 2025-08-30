@@ -1,10 +1,10 @@
-# Noam Shenwald
+# <i class="fas fa-user"></i> Noam Shenwald
 
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on on the connection between reactive synthesis and algorithmic game theory.
 
 
-## Publications
+## <i class="fas fa-book"></i> Publications
 
 ### Coverage Games
 **Authors:** Orna Kupferman and Noam Shenwald  
@@ -48,11 +48,9 @@ My research focuses on on the connection between reactive synthesis and algorith
 
 ---
 
-## Contact
+## <i class="fas fa-comment"></i> Contact Me
 
 - **Email:** firstname.lastname@mail.huji.ac.il 
-- **University:** Hebrew University of Jerusalem  
-- **Location:** Jerusalem, Israel
 
 ---
 
