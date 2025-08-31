@@ -72,12 +72,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h2::after {
-    content: "";
-    display: block;
-    width: 5%;           /* short line */
-    height: 5px;          /* thick line */
-    background-color: black;
-    margin: 5px auto 0;   /* center the line */
+  content: "";
+  display: block;
+  width: 60%;
+  height: 6px;
+  margin: 8px auto 0;
+  border-radius: 10px;
+  background-color: black; /* default */
 }
 </style>
 
