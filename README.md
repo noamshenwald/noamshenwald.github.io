@@ -142,7 +142,7 @@ line-height: 1.3;
 }
 .publication .authors,
 .publication .conference {
-  font-weight: bold;
+  font-weight: 500;
 }
 .publication .buttons {
   display: flex;
