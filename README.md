@@ -82,8 +82,20 @@ h2::after {
 </style>
 
 <style>
-header, .page-header {
-  display: none;
+/* Hide the site title block and its pseudo-element */
+h1::before,
+header::before,
+.page-header::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Also hide the empty header if it’s still reserving space */
+h1:empty,
+header.page-header:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 </style>
 
