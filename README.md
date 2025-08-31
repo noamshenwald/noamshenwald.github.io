@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+h2::after {
     content: "";
     display: block;
     width: 50%;           /* short line */
@@ -82,10 +82,6 @@ h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
 </style>
 
 <style>
-/* Remove pseudo-element for empty h1 */
-h1:empty::after {
-    content: none;
-}
 
 /* Remove extra space caused by empty h1 */
 h1:empty {
