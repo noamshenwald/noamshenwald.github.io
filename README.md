@@ -458,9 +458,12 @@ publisher = {Springer}
 <!--## Contact Me-->
 
 <div style="width:100%; margin:0 0; padding:50px 0; background-color:#0B1F59; color:white; text-align:center; box-sizing:border-box;">
-  <h2>
-    <img src="icons/bubble-icon.svg" width="24" style="background: transparent; vertical-align: middle;padding-bottom: 4px;"/> Get In Touch
+  <div style="text-align: center;">
+  <h2 style="display: inline-flex; align-items: center; gap: 8px; margin: 0;">
+    <img src="icons/bubble-icon.svg" width="24" style="background: transparent;"/>
+    Get In Touch
   </h2>
+</div>
 
   <h3>
     I'm always interested in discussing research collaborations
