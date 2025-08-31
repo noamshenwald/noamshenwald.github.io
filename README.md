@@ -83,7 +83,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <!-- Publications Section -->
 <div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F7F9FF;">
 <h2 align="center">
-  <img src="https://www.svgrepo.com/show/532906/book-open.svg" width="24"/> Publications
+  <img src="icons/book-icon.svg" width="24"/> Publications
 </h2>
 
 <div style="margin-top: 0;margin-bottom: 0; padding:20px 0px;">
@@ -403,7 +403,7 @@ publisher = {Springer}
 
 <div style="width:100%; margin:0 0; padding:50px 0; background-color:black; color:white; text-align:center; box-sizing:border-box;">
   <h2>
-    <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style="filter:invert(1)"/> Get In Touch
+    <img src="icons/bubble-icon.svg" width="24" style="filter:invert(1)"/> Get In Touch
   </h2>
 
   <h3>
