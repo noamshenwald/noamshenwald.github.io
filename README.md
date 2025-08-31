@@ -140,7 +140,10 @@ display: block;
   margin-bottom: 10px;
 line-height: 1.3;
 }
-
+.publication .authors,
+.publication .conference {
+  font-weight: bold;
+}
 .publication .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +152,7 @@ line-height: 1.3;
 }
 
 .pub-btn {
-  padding: 6px 10px;
+  padding: 5px 8px;
   font-size: 0.95em;
   background-color: #0366d6;
   color: white;
