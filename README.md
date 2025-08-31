@@ -61,6 +61,17 @@ button:hover {
 }
 </style>
 
+<style>
+/* Make lines under headings shorter and thicker */
+h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
+    width: 50%;              /* shorter line */
+    height: 5px;             /* thicker line */
+    background-color: black; /* line color */
+    border: none;            /* remove default border */
+    margin: 10px auto;       /* center the line */
+}
+</style>
+
 <!-- # Noam Shenwald
 
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
