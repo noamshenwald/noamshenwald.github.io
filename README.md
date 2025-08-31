@@ -398,7 +398,7 @@ publisher = {Springer}
 
 <!--## Contact Me-->
 
-<div style="width: 100vw; padding: 50px 0; margin: 0; background-color: black; color: white; box-sizing: border-box; text-align: center;">
+<div style="width: 100%; max-width: 100%; padding: 50px 0; margin: 0; background-color: black; color: white; box-sizing: border-box; text-align: center;">
   <h2>
     <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style="filter:invert(1)"/> Get In Touch
   </h2>
