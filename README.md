@@ -82,15 +82,8 @@ h2::after {
 </style>
 
 <style>
-
-<style>
-/* Remove the entire title placeholder */
-h1.page-title:empty,
-header.page-header:empty,
-h1:empty {
+header, .page-header {
   display: none;
-  margin: 0;
-  padding: 0;
 }
 </style>
 
