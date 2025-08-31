@@ -116,9 +116,16 @@ h2.white-line::after {
   box-sizing: border-box;
 }
 
-.publication strong,
-.publication .conference {
+.publication strong {
   font-size: 1.2em; /* Paper title = Conference */
+  color: black;
+  display: block;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.publication .conference {
+  font-size: 1.1em; /* Paper title = Conference */
   color: #0366d6;
   display: block;
   margin-bottom: 6px;
