@@ -98,16 +98,17 @@ h1:empty {
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
-<div style="width:100%; margin-top: 0;margin-bottom: 0; padding:100px 10px; background-color:#D4EBFC; box-sizing:border-box;">
-    <h1 align="center">
-    Noam Shenwald
-  </h1>
-
-  <p align="center" style="font-size: 1.3em;">
-    I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by 
-    <a href="https://www.cs.huji.ac.il/~ornak/" target="_blank" style="color: #1a0dab; text-decoration: none;">
-      Orna Kupferman</a>. <br>My research focuses on the connection between reactive synthesis and algorithmic game theory.
-  </p>
+<div style="width:100%; margin:0; padding:0; background-color:#D4EBFC; box-sizing:border-box;">
+  <div style="text-align:center; padding:100px 10px; margin:0;">
+    <h1 style="display:none;"></h1> <!-- hidden page title -->
+    <p style="margin:0; font-size: 1.3em;">
+      I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by 
+      <a href="https://www.cs.huji.ac.il/~ornak/" target="_blank" style="color: #1a0dab; text-decoration: none;">
+        Orna Kupferman
+      </a>.<br>
+      My research focuses on the connection between reactive synthesis and algorithmic game theory.
+    </p>
+  </div>
 </div>
 
 
