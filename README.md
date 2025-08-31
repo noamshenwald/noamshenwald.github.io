@@ -159,6 +159,7 @@ line-height: 1.3;
   /*border-radius: 4px;*/
 border-radius: 999px;
 margin-top: 6px;
+vertical-align: middle;
 }
 
 .publication .buttons {
