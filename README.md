@@ -1,12 +1,16 @@
 <style>
-  body {
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .markdown-body {
+    margin: 0 !important;
+    padding: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
-    margin: 0;
-    padding: 0 1rem;
-  }
-  .markdown-body {
-    max-width: 100% !important;
   }
 </style>
 
