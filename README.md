@@ -88,11 +88,11 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <!-- Publications Section -->
 <div style="margin-top: 0;margin-bottom: 0; padding:0;background-color:#F7F9FF;">
-<h2 align="center">
+<h2 align="center" style="padding:0px 20px">
   <img src="https://cdn-icons-png.flaticon.com/128/14382/14382061.png" width="24"/> Publications
 </h2>
 
-<div style="margin-top: 0;margin-bottom: 0; padding:0;">
+<div style="margin-top: 0;margin-bottom: 0; padding:20px 0px;">
 
 <!-- Publication 1 -->
 <div style="padding:20px 0;">
