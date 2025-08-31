@@ -62,6 +62,23 @@ button:hover {
 </style>
 
 <style>
+/* Remove lines under all headings */
+h1, h2, h3, h4, h5, h6 {
+    border-bottom: none !important;
+}
+
+/* If the theme uses pseudo-elements */
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+    content: none !important;
+}
+</style>
+
+<style>
 /* Make lines under headings shorter and thicker */
 h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
     width: 5%;              /* shorter line */
