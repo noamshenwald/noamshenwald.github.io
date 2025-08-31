@@ -96,7 +96,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
     CONCUR 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib1').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/coverage games.pdf')">PDF</button>
     <button class="pub-btn" onclick="window.open('papers/coverage-games-full-version.pdf')">Full Version (under review)</button>
@@ -135,7 +135,7 @@ year      = {2025}
     MFCS 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract2').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract2').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib2').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/Positional-Player Games.pdf')">PDF</button>
   </div>
@@ -173,7 +173,7 @@ year      = {2025}
     TACAS 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib3').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')">PDF</button>
   </div>
@@ -212,7 +212,7 @@ year        =   2025
     ATVA 2024
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract4').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract4').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib4').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')">PDF</button>
   </div>
@@ -250,7 +250,7 @@ publisher = {Springer}
     CONCUR 2023
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract5').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract5').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib5').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/Games with Trading of Control.pdf')">PDF</button>
     <button class="pub-btn" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')">Full Version (under review)</button>
@@ -289,7 +289,7 @@ publisher = {Springer}
     TACAS 2022
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract6').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract6').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib6').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/The Complexity of LTL Rational Synthesis.pdf')">PDF</button>
     <button class="pub-btn" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')">Full Version (ACM ToCL 2024)</button>
@@ -329,7 +329,7 @@ publisher = {Springer}
     LICS 2021
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract7').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract7').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib7').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/Perspective Multi-Player Games.pdf')">PDF</button>
   </div>
@@ -365,7 +365,7 @@ publisher = {Springer}
     FST&TCS 2020
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract8').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract8').style.display='flex'"><img src="icons/abstract-icon.svg" width="15" style="background: transparent; padding-right: 5px"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib8').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/Perspective Games with Notifications.pdf')">PDF</button>
   </div>
