@@ -146,7 +146,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 
 <!-- Publications Section -->
-<div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F9FAFB;">
+<div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F9FAFB;color:#111827;">
 <h2 style="text-align: center; margin: 0; display: block;">
   <img src="icons/book-icon.svg" width="24" style="background: transparent;vertical-align: middle;"/>
   <span style="vertical-align: middle;">Publications</span>
