@@ -439,7 +439,7 @@ publisher = {Springer}
   </h3>
 
   <p style="font-size: 1.2em;">
-    <img src="icons/email-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 20px;"/>firstname.lastname@mail.huji.ac.il
+    <img src="icons/email-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>firstname.lastname@mail.huji.ac.il
   </p>
 </div>
 
