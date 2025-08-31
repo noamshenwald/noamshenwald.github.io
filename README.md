@@ -72,8 +72,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
   <p align="center" style="font-size: 1.3em;">
     I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by 
     <a href="https://www.cs.huji.ac.il/~ornak/" target="_blank" style="color: #1a0dab; text-decoration: none;">
-      Orna Kupferman
-    </a>.<br>My research focuses on the connection between reactive synthesis and algorithmic game theory.
+      Orna Kupferman</a>. <br>My research focuses on the connection between reactive synthesis and algorithmic game theory.
   </p>
 </div>
 
