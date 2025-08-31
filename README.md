@@ -78,7 +78,7 @@ h6::after {
 }
 </style>
 
-<style>
+<!--<style>
 /* Make lines under headings shorter and thicker */
 h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
     width: 5%;              /* shorter line */
@@ -88,7 +88,7 @@ h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
     margin: auto auto;       /* center the line */
     align: center;
 }
-</style>
+</style> -->
 
 <!-- # Noam Shenwald
 
