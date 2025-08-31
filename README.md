@@ -64,11 +64,12 @@ button:hover {
 <style>
 /* Make lines under headings shorter and thicker */
 h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
-    width: 10%;              /* shorter line */
+    width: 5%;              /* shorter line */
     height: 5px;             /* thicker line */
     background-color: black; /* line color */
     border: none;            /* remove default border */
-    margin: 0px auto;       /* center the line */
+    margin: auto auto;       /* center the line */
+    align: center;
 }
 </style>
 
