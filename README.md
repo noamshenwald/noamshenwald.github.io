@@ -23,6 +23,12 @@
   .markdown-body > :last-child {
     margin-bottom: 0 !important;
   }
+
+  /* Remove default spacing from headings and paragraphs */
+  h1, h2, h3, p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
 </style>
 
 <style>
@@ -89,7 +95,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div style="margin-top: 0;margin-bottom: 0; padding:0;">
 
 <!-- Publication 1 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Coverage Games</strong><br>
     Orna Kupferman, Noam Shenwald<br>
@@ -128,7 +134,7 @@ year      = {2025}
 </div>
 
 <!-- Publication 2 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Positional-Player Games</strong><br>
     Orna Kupferman, Noam Shenwald<br>
@@ -166,7 +172,7 @@ year      = {2025}
 </div>
 
 <!-- Publication 3 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Non-Zero-Sum Games with Multiple Weighted Objectives</strong><br>
     Yoav Feinstein, Orna Kupferman, Noam Shenwald<br>
@@ -205,7 +211,7 @@ year        =   2025
 </div>
 
 <!-- Publication 4 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Games with Weighted Multiple Objectives</strong><br>
     Orna Kupferman, Noam Shenwald<br>
@@ -243,7 +249,7 @@ publisher = {Springer}
   </div>
 </div>
 <!-- Publication 5 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Games with Trading of Control</strong><br>
     Orna Kupferman, Noam Shenwald<br>
@@ -282,7 +288,7 @@ publisher = {Springer}
 </div>
 
 <!-- Publication 6 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>The Complexity of LTL Rational Synthesis</strong><br>
     Orna Kupferman, Noam Shenwald<br>
@@ -322,7 +328,7 @@ publisher = {Springer}
 </div>
 
 <!-- Publication 7 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Perspective Multi-Player Games</strong><br>
     Orna Kupferman, Noam Shenwald<br>
@@ -358,7 +364,7 @@ publisher = {Springer}
 </div>
 
 <!-- Publication 8 -->
-<div style="margin-bottom:50px;">
+<div style="padding:20px 0;">
   <p>
     <strong>Perspective Games with Notifications</strong><br>
     Orna Kupferman, Noam Shenwald<br>
