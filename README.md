@@ -124,10 +124,10 @@ My research focuses on the connection between reactive synthesis and algorithmic
     CONCUR 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib1').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/coverage games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
-    <button class="pub-btn" onclick="window.open('papers/coverage-games-full-version.pdf')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>Full Version (under review)</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib1').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/coverage games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
+    <button class="pub-btn" onclick="window.open('papers/coverage-games-full-version.pdf')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Full Version (under review)</button>
   </div>
 </div>
 
@@ -163,9 +163,9 @@ year      = {2025}
     MFCS 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract2').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib2').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Positional-Player Games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract2').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib2').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/Positional-Player Games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
   </div>
 </div>
 
@@ -201,9 +201,9 @@ year      = {2025}
     TACAS 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib3').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib3').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
   </div>
 </div>
 
@@ -240,9 +240,9 @@ year        =   2025
     ATVA 2024
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract4').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib4').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract4').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib4').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
   </div>
 </div>
 
@@ -278,10 +278,10 @@ publisher = {Springer}
     CONCUR 2023
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract5').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib5').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Games with Trading of Control.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
-    <button class="pub-btn" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>Full Version (under review)</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract5').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib5').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/Games with Trading of Control.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
+    <button class="pub-btn" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Full Version (under review)</button>
   </div>
 </div>
 
@@ -317,10 +317,10 @@ publisher = {Springer}
     TACAS 2022
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract6').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib6').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/The Complexity of LTL Rational Synthesis.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
-    <button class="pub-btn" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>Full Version (ACM ToCL 2024)</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract6').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib6').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/The Complexity of LTL Rational Synthesis.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
+    <button class="pub-btn" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Full Version (ACM ToCL 2024)</button>
   </div>
 </div>
 
@@ -357,9 +357,9 @@ publisher = {Springer}
     LICS 2021
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract7').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib7').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Perspective Multi-Player Games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract7').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib7').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/Perspective Multi-Player Games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
   </div>
 </div>
 
@@ -393,9 +393,9 @@ publisher = {Springer}
     FST&TCS 2020
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract8').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib8').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Perspective Games with Notifications.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; padding-top: 2px;"/>PDF</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract8').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('bib8').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>BibTeX</button>
+    <button class="pub-btn" onclick="window.open('papers/Perspective Games with Notifications.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle;"/>PDF</button>
   </div>
 </div>
 
