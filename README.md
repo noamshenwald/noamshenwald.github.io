@@ -26,9 +26,9 @@
 </style>
 
 <style>
-/* Kill the injected site title at the top */
-.markdown-body h1:first-child,
-.markdown-body h1:first-child a {
+/* Hide site title injected by the theme */
+.page-header h1,
+.page-header h1 a {
   display: none !important;
   margin: 0 !important;
   padding: 0 !important;
