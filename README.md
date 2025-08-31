@@ -259,7 +259,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="width:100%; margin:0; padding:0; background-color:#E4EBFF; color:#11182F; box-sizing:border-box;">
   <div style="text-align:center; padding-left:10%; padding-right:10%; padding-top: 100px;padding-bottom: 100px; margin:0;">
-    <div style="font-size: 2.5em; text-align: center; margin: 0; padding-bottom: 10px;">
+    <div style="font-size: 2.3em; text-align: center; margin: 0; padding-bottom: 10px;">
   Noam Shenwald
 </div>
     <p style="margin:0; font-size: 1.3em;">
