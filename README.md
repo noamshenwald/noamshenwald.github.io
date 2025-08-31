@@ -65,29 +65,23 @@ button:hover {
 /* Remove lines under all headings */
 h1, h2, h3, h4, h5, h6 {
     border-bottom: none !important;
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px; /* space below heading */
 }
 
-/* If the theme uses pseudo-elements */
-h1::after,
-h2::after,
-h3::after,
-h4::after,
-h5::after,
-h6::after {
-    content: none !important;
+
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+    content: "";
+    display: block;
+    width: 50%;           /* short line */
+    height: 5px;          /* thick line */
+    background-color: black;
+    margin: 5px auto 0;   /* center the line */
 }
 </style>
 
-<style>
-/* Make lines under headings shorter and thicker */
-h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
-    width: 5%;              /* shorter line */
-    height: 5px;             /* thicker line */
-    background-color: black; /* line color */
-    border: none;            /* remove default border */
-    margin: auto auto;       /* center the line */
-}
-</style> 
+
 
 <!-- # Noam Shenwald
 
