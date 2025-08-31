@@ -129,8 +129,8 @@ a.anchorjs-link {
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
-<div style="width:100%; margin:0; padding:0; background-color:#E4EBFF; color:#111827; box-sizing:border-box;">
-  <div style="text-align:center; padding:100px 100px; margin:0;">
+<div style="width:100%; margin:0; padding:0; background-color:#E4EBFF; color:#11182F; box-sizing:border-box;">
+  <div style="text-align:center; padding-left:10%; padding-right:10%; padding-top: 100px;padding-bottom: 100px; margin:0;">
     <div style="font-size: 2.3em; text-align: center; margin: 0; padding-bottom: 10px;">
   Noam Shenwald
 </div>
