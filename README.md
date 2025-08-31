@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none !important;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   border-bottom: none; /* remove unwanted lines */
   margin-bottom: 15px;
@@ -85,7 +85,7 @@ h2.white-line::after {
 }
 
 .hero h1 {
-  font-size: 2.3em;
+  font-size: 3em;
   margin-bottom: 10px;
 }
 
@@ -206,7 +206,7 @@ line-height: 1.3;
 }
 
 .contact h2 {
-  font-size: 2em; /* Same as Publication heading */
+  font-size: 2.5em; /* Same as Publication heading */
   margin-bottom: 15px;
 }
 
@@ -256,7 +256,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <!-- Publications Section -->
 <div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F9FAFB;color:#111827;">
-<h2 class="section-heading" style="font-size: 2em; text-align: center; margin: 0; display: block;">
+<h2 class="section-heading" style="font-size: 2.5em; text-align: center; margin: 0; display: block;">
   <img src="icons/book-icon.svg" width="24" style="background: transparent;vertical-align: middle;"/>
   <span style="vertical-align: middle;">Publications</span>
 </h2>
@@ -622,7 +622,7 @@ publisher = {Springer}
 <!--## Contact Me-->
 
 <div style="width:100%; margin:0 0; padding:50px 0; background-color:#172554; color:white; text-align:center; box-sizing:border-box;">
-  <h2 class="section-heading" class="white-line" style="font-size: 2em; text-align: center; margin: 0; display: block;">
+  <h2 class="section-heading" class="white-line" style="font-size: 2.5em; text-align: center; margin: 0; display: block;">
   <img src="icons/bubble-icon.svg" width="24" style="background: transparent;vertical-align: middle;"/>
   <span style="vertical-align: middle;">Get In Touch</span>
 </h2>
