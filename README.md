@@ -81,7 +81,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 Orna Kupferman, Noam Shenwald  
 CONCUR 2025  
 
-<div style="margin:5px 0;">
+<div style="margin:5px 0;padding:100px">
   <button class="popupBtn" data-popup="abstract1" style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">Abstract</button>
   <button class="popupBtn" data-popup="bib1" style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">BibTeX</button>
 <button style="background-color:#0366d6;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;" onclick="window.open('papers/coverage games.pdf')">PDF</button>
