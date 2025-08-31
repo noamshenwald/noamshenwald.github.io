@@ -151,12 +151,13 @@ line-height: 1.3;
 .publication .distinguished-paper {
   display: inline-flex;
   align-items: center;
-  background-color: #FFD700; /* gold */
+  background-color: #EDB50C; /* gold */
   color: #98672f;
   font-size: 0.85em;
-  font-weight: 600;
-  padding: 2px 6px;
-  border-radius: 4px;
+  font-weight: 300;
+  padding: 2px 8px;
+  /*border-radius: 4px;*/
+border-radius: 999px;
 }
 
 .publication .buttons {
