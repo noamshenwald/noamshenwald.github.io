@@ -120,7 +120,7 @@ h2.white-line::after {
   font-size: 1.2em; /* Paper title */
   color: black;
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   line-height: 1.3;
 }
 
@@ -129,14 +129,14 @@ h2.white-line::after {
   color: #0366d6;
   /*display: block;*/
  display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .publication .authors {
   font-size: 1em;
   color: #555;
 display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .publication .buttons {
