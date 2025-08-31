@@ -80,10 +80,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px; /* space below heading */
 }
 
-h2{
-  font-size: 2em;
-}
-
 
 h2::after {
   content: "";
@@ -126,6 +122,58 @@ a.anchorjs-link {
     display: none !important;
 }
 </style>
+<style>
+/* 1. General body font */
+body, .markdown-body {
+  font-size: 18px; /* increase base font size */
+  line-height: 1.6; /* improve readability */
+}
+
+/* 2. Publication container alignment */
+.publication {
+  text-align: left;
+  max-width: 800px; /* keeps content centered with margin */
+  margin: 20px auto; /* auto horizontal centering */
+  padding: 10px 20px; /* spacing inside the container */
+  box-sizing: border-box;
+}
+
+/* 3. Paper title */
+.publication strong {
+  font-size: 1.5em; /* bigger */
+  color: #111; /* black */
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* 4. Authors */
+.publication .authors {
+  font-size: 1em; /* smaller */
+  color: #555; /* gray */
+  margin-bottom: 5px;
+}
+
+/* 5. Conference / venue */
+.publication .conference {
+  font-size: 1.2em; /* intermediate */
+  color: #0366d6; /* blue */
+  margin-bottom: 15px; /* more vertical space */
+}
+
+/* 6. Buttons alignment */
+.publication .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* Optional: bigger buttons */
+.pub-btn {
+  padding: 8px 14px;
+  font-size: 0.95em;
+}
+</style>
 
 
 <!-- # Noam Shenwald
@@ -158,17 +206,23 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div style="margin-top: 0;margin-bottom: 0; padding:20px 0px;">
 
 <!-- Publication 1 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Coverage Games</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    CONCUR 2025
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib1').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/coverage games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
-    <button class="pub-btn" onclick="window.open('papers/coverage-games-full-version.pdf')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Full Version (under review)</button>
+<div class="publication">
+  <strong>Coverage Games</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">CONCUR 2025</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib1').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/coverage games.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/coverage-games-full-version.pdf')">
+      <img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Full Version (under review)
+    </button>
   </div>
 </div>
 
@@ -197,18 +251,23 @@ year      = {2025}
 </div>
 
 <!-- Publication 2 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Positional-Player Games</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    MFCS 2025
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract2').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib2').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Positional-Player Games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
+<div class="publication">
+  <strong>Positional-Player Games</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">MFCS 2025</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract2').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib2').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/Positional-Player Games.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
   </div>
 </div>
+
 
 <div id="abstract2" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
@@ -235,18 +294,23 @@ year      = {2025}
 </div>
 
 <!-- Publication 3 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Non-Zero-Sum Games with Multiple Weighted Objectives</strong><br>
-    Yoav Feinstein, Orna Kupferman, Noam Shenwald<br>
-    TACAS 2025
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib3').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
+<div class="publication">
+  <strong>Non-Zero-Sum Games with Multiple Weighted Objectives</strong>
+  <div class="authors">Yoav Feinstein, Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">TACAS 2025</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib3').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/Non-Zero-Sum Games with Multiple Weighted Objectives.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
   </div>
 </div>
+
 
 <div id="abstract3" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
@@ -274,18 +338,23 @@ year        =   2025
 </div>
 
 <!-- Publication 4 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Games with Weighted Multiple Objectives</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    ATVA 2024
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract4').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib4').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
+<div class="publication">
+  <strong>Games with Weighted Multiple Objectives</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">ATVA 2024</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract4').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib4').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/Games with Weighted Multiple Objectives.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
   </div>
 </div>
+
 
 <div id="abstract4" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
@@ -312,19 +381,26 @@ publisher = {Springer}
   </div>
 </div>
 <!-- Publication 5 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Games with Trading of Control</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    CONCUR 2023
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract5').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib5').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Games with Trading of Control.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
-    <button class="pub-btn" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Full Version (under review)</button>
+<div class="publication">
+  <strong>Games with Trading of Control</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">CONCUR 2023</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract5').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib5').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/Games with Trading of Control.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/games-with-trading-of-control-full-version.pdf')">
+      <img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Full Version (under review)
+    </button>
   </div>
 </div>
+
 
 <div id="abstract5" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
@@ -351,19 +427,26 @@ publisher = {Springer}
 </div>
 
 <!-- Publication 6 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>The Complexity of LTL Rational Synthesis</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    TACAS 2022
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract6').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib6').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/The Complexity of LTL Rational Synthesis.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
-    <button class="pub-btn" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')"><img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Full Version (ACM ToCL 2024)</button>
+<div class="publication">
+  <strong>The Complexity of LTL Rational Synthesis</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">TACAS 2022</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract6').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib6').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/The Complexity of LTL Rational Synthesis.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
+    <button class="pub-btn" onclick="window.open('https://dl.acm.org/doi/10.1145/3648473')">
+      <img src="icons/full-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Full Version (ACM ToCL 2024)
+    </button>
   </div>
 </div>
+
 
 <div id="abstract6" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
@@ -391,18 +474,23 @@ publisher = {Springer}
 </div>
 
 <!-- Publication 7 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Perspective Multi-Player Games</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    LICS 2021
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract7').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib7').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Perspective Multi-Player Games.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
+<div class="publication">
+  <strong>Perspective Multi-Player Games</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">LICS 2021</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract7').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib7').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/Perspective Multi-Player Games.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
   </div>
 </div>
+
 
 <div id="abstract7" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
@@ -427,18 +515,23 @@ publisher = {Springer}
 </div>
 
 <!-- Publication 8 -->
-<div style="padding:20px 0;">
-  <p>
-    <strong>Perspective Games with Notifications</strong><br>
-    Orna Kupferman, Noam Shenwald<br>
-    FST&TCS 2020
-  </p>
-  <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract8').style.display='flex'"><img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract</button>
-    <button class="pub-btn" onclick="document.getElementById('bib8').style.display='flex'"><img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX</button>
-    <button class="pub-btn" onclick="window.open('papers/Perspective Games with Notifications.pdf')"><img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF</button>
+<div class="publication">
+  <strong>Perspective Games with Notifications</strong>
+  <div class="authors">Orna Kupferman, Noam Shenwald</div>
+  <div class="conference">FST&TCS 2020</div>
+  <div class="buttons">
+    <button class="pub-btn" onclick="document.getElementById('abstract8').style.display='flex'">
+      <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
+    </button>
+    <button class="pub-btn" onclick="document.getElementById('bib8').style.display='flex'">
+      <img src="icons/bibtex-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>BibTeX
+    </button>
+    <button class="pub-btn" onclick="window.open('papers/Perspective Games with Notifications.pdf')">
+      <img src="icons/pdf-icon.svg" width="17" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>PDF
+    </button>
   </div>
 </div>
+
 
 <div id="abstract8" class="popupModal" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;">
   <div style="background:white;padding:20px;border-radius:10px;max-width:500px;text-align:left;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
