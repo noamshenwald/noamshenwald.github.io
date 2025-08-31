@@ -158,7 +158,7 @@ line-height: 1.3;
   padding: 2px 12px;
   /*border-radius: 4px;*/
 border-radius: 999px;
-margin-top: 6px;
+margin-top: 0px;
 vertical-align: middle;
 }
 
