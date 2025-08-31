@@ -1,7 +1,8 @@
 <style>
   /* Reset page margins completely */
   html, body {
-    margin: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
     padding: 0 !important;
     height: 100%;
     width: 100%;
@@ -10,7 +11,8 @@
   /* Stretch markdown container */
   .markdown-body {
     max-width: 100% !important;
-    margin: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
     padding: 0 !important;
   }
 
@@ -64,7 +66,7 @@ button:hover {
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
-<div style="width:100%; margin:0 0; padding:100px 10px; background-color:#D4EBFC; box-sizing:border-box;">
+<div style="width:100%; margin-top: 0;margin-bottom: 0; padding:100px 10px; background-color:#D4EBFC; box-sizing:border-box;">
     <h1 align="center">
     Noam Shenwald
   </h1>
@@ -79,12 +81,12 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 
 <!-- Publications Section -->
-<div style="margin:0 0; padding:0;background-color:#F7F9FF;">
+<div style="margin-top: 0;margin-bottom: 0; padding:0;background-color:#F7F9FF;">
 <h2 align="center">
   <img src="https://cdn-icons-png.flaticon.com/128/14382/14382061.png" width="24"/> Publications
 </h2>
 
-<div style="margin:0 0; padding:100px;">
+<div style="margin-top: 0;margin-bottom: 0; padding:0;">
 
 <!-- Publication 1 -->
 <div style="margin-bottom:50px;">
