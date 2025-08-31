@@ -409,7 +409,6 @@ publisher = {Springer}
   <p style="font-size: 1.2em;">
     email: firstname.lastname@mail.huji.ac.il
   </p>
-  <p>© 2025 Noam Shenwald. All rights reserved.</p>
 </div>
 
 
