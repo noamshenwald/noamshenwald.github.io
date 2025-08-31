@@ -86,7 +86,6 @@ h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
     background-color: black; /* line color */
     border: none;            /* remove default border */
     margin: auto auto;       /* center the line */
-    align: center;
 }
 </style> 
 
@@ -113,7 +112,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F7F9FF;">
 <h2 align="center">
   <img src="icons/book-icon.svg" width="24" style="background: transparent;"/> Publications
-</h2><hr>
+</h2><hr align="center">
 
 <div style="margin-top: 0;margin-bottom: 0; padding:20px 0px;">
 
