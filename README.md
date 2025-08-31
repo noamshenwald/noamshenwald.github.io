@@ -111,9 +111,9 @@ header.page-header:empty {
 </style>
 
 <style>
-  .anchor, .octicon-link {
+a.anchorjs-link {
     display: none !important;
-  }
+}
 </style>
 
 
