@@ -3,5 +3,4 @@
 #description: Bookmark this to keep an eye on my project updates!
 title: "Noam Shenwald"
 markdown: kramdown
-    kramdown:
-      auto_ids: false
+auto_ids: false
