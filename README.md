@@ -152,7 +152,7 @@ line-height: 1.3;
 }
 
 .pub-btn {
-  padding: 5px 8px;
+  padding: 5px 12px;
   font-size: 0.95em;
   background-color: #0366d6;
   color: white;
