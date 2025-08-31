@@ -1,4 +1,16 @@
 <style>
+  body {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .markdown-body {
+    max-width: 100% !important;
+  }
+</style>
+
+<style>
 /* Common button style */
 .pub-btn {
     background-color: #0366d6;
