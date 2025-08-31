@@ -154,7 +154,7 @@ line-height: 1.3;
   background-color: #EDB50C; /* gold */
   color: #98672f;
   font-size: 0.85em;
-  font-weight: 300;
+  font-weight: 500;
   padding: 2px 8px;
   /*border-radius: 4px;*/
 border-radius: 999px;
