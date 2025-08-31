@@ -64,7 +64,7 @@ button:hover {
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
-<div style="width:100%; margin:0; padding:100px 10px; background-color:#D4EBFC; box-sizing:border-box;">
+<div style="width:100%; margin:0 0; padding:100px 10px; background-color:#D4EBFC; box-sizing:border-box;">
     <h1 align="center">
     Noam Shenwald
   </h1>
@@ -79,7 +79,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 
 <!-- Publications Section -->
-<div style="margin:0; padding:0;background-color:#F7F9FF;">
+<div style="margin:0 0; padding:0;background-color:#F7F9FF;">
 <h2 align="center">
   <img src="https://cdn-icons-png.flaticon.com/128/14382/14382061.png" width="24"/> Publications
 </h2>
@@ -399,7 +399,7 @@ publisher = {Springer}
 
 <!--## Contact Me-->
 
-<div style="width:100%; margin:0; padding:50px 0; background-color:black; color:white; text-align:center; box-sizing:border-box;">
+<div style="width:100%; margin:0 0; padding:50px 0; background-color:black; color:white; text-align:center; box-sizing:border-box;">
   <h2>
     <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style="filter:invert(1)"/> Get In Touch
   </h2>
