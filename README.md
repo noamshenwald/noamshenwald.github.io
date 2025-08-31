@@ -96,7 +96,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
     CONCUR 2025
   </p>
   <div style="display:flex; flex-wrap: wrap; gap:10px; margin-top:10px;">
-    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'">Abstract</button>
+    <button class="pub-btn" onclick="document.getElementById('abstract1').style.display='flex'"><img src="icons/abstract-icon.svg" width="10" style="background: transparent;"/>Abstract</button>
     <button class="pub-btn" onclick="document.getElementById('bib1').style.display='flex'">BibTeX</button>
     <button class="pub-btn" onclick="window.open('papers/coverage games.pdf')">PDF</button>
     <button class="pub-btn" onclick="window.open('papers/coverage-games-full-version.pdf')">Full Version (under review)</button>
