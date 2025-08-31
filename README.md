@@ -403,7 +403,7 @@ publisher = {Springer}
 
 <div style="width:100%; margin:0 0; padding:50px 0; background-color:black; color:white; text-align:center; box-sizing:border-box;">
   <h2>
-    <img src="icons/bubble-icon.svg" width="24" style="background: transparent;""/> Get In Touch
+    <img src="icons/bubble-icon.svg" width="24" style="background: transparent;"/> Get In Touch
   </h2>
 
   <h3>
