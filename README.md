@@ -117,7 +117,7 @@ h2.white-line::after {
 }
 
 .publication strong {
-  font-size: 1.2em; /* Paper title = Conference */
+  font-size: 1.2em; /* Paper title */
   color: black;
   display: block;
   margin-bottom: 6px;
@@ -125,11 +125,10 @@ h2.white-line::after {
 }
 
 .publication .conference {
-  font-size: 1.1em; /* Paper title = Conference */
+  font-size: 1.1em; /* Paper Conference */
   color: #0366d6;
   display: block;
   margin-bottom: 6px;
-  line-height: 1.3;
 }
 
 .publication .authors {
