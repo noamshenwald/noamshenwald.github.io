@@ -412,7 +412,6 @@ publisher = {Springer}
   </p>
 </div>
 
----
 
 <!-- JavaScript -->
 <script>
