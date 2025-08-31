@@ -127,14 +127,14 @@ h2.white-line::after {
 .publication .conference {
   font-size: 1.1em; /* Paper Conference */
   color: #0366d6;
-  display: block;
+  /*display: block;*/
   margin-bottom: 6px;
 }
 
 .publication .authors {
   font-size: 1em;
   color: #555;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .publication .buttons {
