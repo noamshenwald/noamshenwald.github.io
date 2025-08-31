@@ -147,7 +147,7 @@ display: block;
 }
 
 .pub-btn {
-  padding: 8px 14px;
+  padding: 6px 12px;
   font-size: 0.95em;
   background-color: #0366d6;
   color: white;
