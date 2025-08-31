@@ -26,6 +26,16 @@
 </style>
 
 <style>
+/* Kill the injected site title at the top */
+.markdown-body h1:first-child,
+.markdown-body h1:first-child a {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+</style>
+
+<style>
 /* Common button style */
 .pub-btn {
     background-color: #0366d6;
