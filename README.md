@@ -224,7 +224,7 @@ vertical-align: middle;
 }
 
 .contact h2 {
-  font-size: 2.5em; /* Same as Publication heading */
+  font-size: 2em; /* Same as Publication heading */
   margin-bottom: 15px;
 }
 
@@ -259,7 +259,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="width:100%; margin:0; padding:0; background-color:#E4EBFF; color:#11182F; box-sizing:border-box;">
   <div style="text-align:center; padding-left:10%; padding-right:10%; padding-top: 100px;padding-bottom: 100px; margin:0;">
-    <div style="font-size: 3em; text-align: center; margin: 0; padding-bottom: 10px;">
+    <div style="font-size: 2.5em; text-align: center; margin: 0; padding-bottom: 10px;">
   Noam Shenwald
 </div>
     <p style="margin:0; font-size: 1.3em;">
@@ -274,7 +274,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <!-- Publications Section -->
 <div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F9FAFB;color:#111827;">
-<h2 class="section-heading" style="font-size: 2.5em; font-weight: 300; text-align: center; margin: 0; display: block;">
+<h2 class="section-heading" style="font-size: 2em; font-weight: 300; text-align: center; margin: 0; display: block;">
   <img src="icons/book-icon.svg" width="24" style="background: transparent;vertical-align: middle;"/>
   <span style="vertical-align: middle;">Publications</span>
 </h2>
@@ -646,7 +646,7 @@ publisher = {Springer}
 <!--## Contact Me-->
 
 <div style="width:100%; margin:0 0; padding:50px 0; background-color:#172554; color:white; text-align:center; box-sizing:border-box;">
-  <h2 class="section-heading" class="white-line" style="font-size: 2.5em; font-weight: 300; text-align: center; margin: 0; display: block;">
+  <h2 class="section-heading" class="white-line" style="font-size: 2em; font-weight: 300; text-align: center; margin: 0; display: block;">
   <img src="icons/bubble-icon.svg" width="24" style="background: transparent;vertical-align: middle;"/>
   <span style="vertical-align: middle;">Get In Touch</span>
 </h2>
