@@ -1,202 +1,45 @@
 <style>
-  /* Reset page margins completely */
-  html, body {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    padding: 0 !important;
-    height: 100%;
-    width: 100%;
-  }
-
-  /* Stretch markdown container */
-  .markdown-body {
-    max-width: 100% !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* Ensure first and last child don’t add extra space */
-  .markdown-body > :first-child {
-    margin-top: 0 !important;
-  }
-  .markdown-body > :last-child {
-    margin-bottom: 0 !important;
-  }
-</style>
-
-<style>
-/* Kill the injected site title at the top */
-.markdown-body h1:first-child,
-.markdown-body h1:first-child a {
-  display: none !important;
+/* === Base Reset === */
+html, body {
   margin: 0 !important;
   padding: 0 !important;
-}
-</style>
-
-<style>
-/* Common button style */
-.pub-btn {
-    background-color: #0366d6;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-/* Darken slightly on hover */
-.pub-btn:hover {
-    background-color: #0255b5; /* slightly darker blue */
-}
-
-/* === Added: Hover darken for all buttons, regardless of inline styles === */
-button {
-    transition: background-color 0.2s, filter 0.2s;
-}
-button:hover {
-    background-color: #0255b5 !important; /* override inline background colors */
-}
-
-/* === Added: Fixed-size abstract popups with scroll === */
-/* Applies only to abstract modals (ids starting with "abstract") */
-[id^="abstract"] > div {
-    width: 560px !important;   /* fixed width for all abstracts */
-    height: 380px !important;  /* fixed height for all abstracts */
-    max-width: none !important;
-    overflow-y: auto;          /* scroll if content exceeds height */
-    box-sizing: border-box;    /* include padding in the fixed size */
-}
-</style>
-
-<style>
-/* Remove lines under all headings */
-h1, h2, h3, h4, h5, h6 {
-    border-bottom: none !important;
-    text-align: center;
-    position: relative;
-    margin-bottom: 15px; /* space below heading */
-}
-
-
-h2::after {
-  content: "";
-  display: block;
-  width: 5%;
-  height: 6px;
-  margin: 8px auto 0;
-  border-radius: 10px;
-  background-color: black; /* default */
-}
-</style>
-
-<style>
-/* White line for h2 with class 'white-line' */
-h2.white-line::after {
-    background-color: white;
-}
-</style>
-
-<style>
-/* Hide the site title block and its pseudo-element */
-h1::before,
-header::before,
-.page-header::before {
-  content: none !important;
-  display: none !important;
-}
-
-/* Also hide the empty header if it’s still reserving space */
-h1:empty,
-header.page-header:empty {
-  display: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-</style>
-
-<style>
-a.anchorjs-link {
-    display: none !important;
-}
-</style>
-<style>
-/* 1. General body font */
-body, .markdown-body {
-  font-size: 18px; /* increase base font size */
-  line-height: 1.6; /* improve readability */
-}
-
-/* 2. Publication container alignment */
-.publication {
-  text-align: left;
-  max-width: 800px; /* keeps content centered with margin */
-  margin: 20px auto; /* auto horizontal centering */
-  padding: 10px 20px; /* spacing inside the container */
-  box-sizing: border-box;
-}
-
-/* 3. Paper title */
-.publication strong {
-  font-size: 1.5em; /* bigger */
-  color: #111; /* black */
-  display: block;
-  margin-bottom: 5px;
-}
-
-/* 4. Authors */
-.publication .authors {
-  font-size: 1em; /* smaller */
-  color: #555; /* gray */
-  margin-bottom: 5px;
-}
-
-/* 5. Conference / venue */
-.publication .conference {
-  font-size: 1.2em; /* intermediate */
-  color: #0366d6; /* blue */
-  margin-bottom: 15px; /* more vertical space */
-}
-
-/* 6. Buttons alignment */
-.publication .buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 5px;
-}
-
-/* Optional: bigger buttons */
-.pub-btn {
-  padding: 8px 14px;
-  font-size: 0.95em;
-}
-</style>
-
-<style>
-/* --- Base styles --- */
-body, .markdown-body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  font-family: Arial, sans-serif;
   color: #111827;
-  margin: 0;
-  padding: 0;
 }
 
+.markdown-body {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.markdown-body > :first-child { margin-top: 0 !important; }
+.markdown-body > :last-child { margin-bottom: 0 !important; }
+
+/* Hide default site title / anchors */
+.markdown-body h1:first-child,
+.markdown-body h1:first-child a,
+h1::before,
+header::before,
+.page-header::before,
+a.anchorjs-link {
+  display: none !important;
+  content: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* === Headings === */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: 600;
-}
-
-/* Remove underlines from headings */
-h1, h2, h3, h4, h5, h6 {
-  border-bottom: none;
   text-align: center;
-  position: relative;
+  border-bottom: none;
   margin-bottom: 15px;
 }
 
@@ -214,14 +57,20 @@ h2.white-line::after {
   background-color: white;
 }
 
-/* --- Hero Section --- */
+/* Make section headings bigger: "Publication" & "Get In Touch" */
+.section-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* === Hero Section === */
 .hero {
   width: 100%;
   padding: 100px 10%;
   background-color: #E4EBFF;
   text-align: center;
-  box-sizing: border-box;
   color: #11182F;
+  box-sizing: border-box;
 }
 
 .hero h1 {
@@ -231,9 +80,9 @@ h2.white-line::after {
 
 .hero p {
   font-size: 1.2em;
-  line-height: 1.5;
   max-width: 800px;
   margin: 0 auto;
+  line-height: 1.5;
 }
 
 .hero a {
@@ -241,7 +90,7 @@ h2.white-line::after {
   text-decoration: none;
 }
 
-/* --- Publications Section --- */
+/* === Publications Section === */
 .publication-container {
   background-color: #F9FAFB;
   color: #111827;
@@ -256,9 +105,10 @@ h2.white-line::after {
   box-sizing: border-box;
 }
 
-.publication strong {
-  font-size: 1.4em;
-  color: #111;
+.publication strong,
+.publication .conference {
+  font-size: 1.2em; /* Paper title = Conference */
+  color: #0366d6;
   display: block;
   margin-bottom: 6px;
   line-height: 1.3;
@@ -268,12 +118,6 @@ h2.white-line::after {
   font-size: 1em;
   color: #555;
   margin-bottom: 4px;
-}
-
-.publication .conference {
-  font-size: 1.1em;
-  color: #0366d6;
-  margin-bottom: 12px;
 }
 
 .publication .buttons {
@@ -303,7 +147,7 @@ h2.white-line::after {
   margin-right: 5px;
 }
 
-/* --- Popups --- */
+/* === Popups / Abstracts === */
 .popupModal > div {
   width: 560px;
   max-width: 90%;
@@ -327,7 +171,7 @@ h2.white-line::after {
   line-height: 1.5;
 }
 
-/* --- Contact Section --- */
+/* === Contact Section === */
 .contact {
   width: 100%;
   padding: 50px 10%;
@@ -338,7 +182,7 @@ h2.white-line::after {
 }
 
 .contact h2 {
-  font-size: 1.8em;
+  font-size: 2em; /* Same as Publication heading */
   margin-bottom: 15px;
 }
 
@@ -363,6 +207,7 @@ h2.white-line::after {
   margin-right: 5px;
 }
 </style>
+
 
 
 
