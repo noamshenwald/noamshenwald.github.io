@@ -10,8 +10,16 @@
   .markdown-body {
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 0 !important; 
+    padding: 0 !important;
     box-sizing: border-box;
+  }
+
+  /* Kill extra space at top/bottom from first/last elements */
+  .markdown-body > :first-child {
+    margin-top: 0 !important;
+  }
+  .markdown-body > :last-child {
+    margin-bottom: 0 !important;
   }
 </style>
 
