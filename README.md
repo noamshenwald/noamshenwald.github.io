@@ -152,7 +152,7 @@ line-height: 1.3;
   display: inline-flex;
   align-items: center;
   background-color: #EDB50C; /* gold */
-  color: #98672f;
+  color: #854310;
   font-size: 0.85em;
   font-weight: 500;
   padding: 2px 8px;
