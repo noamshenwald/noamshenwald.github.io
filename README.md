@@ -81,6 +81,20 @@ h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
 }
 </style>
 
+<style>
+/* Remove pseudo-element for empty h1 */
+h1:empty::after {
+    content: none;
+}
+
+/* Remove extra space caused by empty h1 */
+h1:empty {
+    display: none;   /* completely hide the empty heading */
+    margin: 0;       /* remove default margin */
+    padding: 0;      /* remove default padding */
+}
+</style>
+
 
 
 <!-- # Noam Shenwald
