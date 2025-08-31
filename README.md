@@ -93,6 +93,13 @@ h2::after {
 </style>
 
 <style>
+/* White line for h2 with class 'white-line' */
+h2.white-line::after {
+    background-color: white;
+}
+</style>
+
+<style>
 /* Hide the site title block and its pseudo-element */
 h1::before,
 header::before,
@@ -461,7 +468,7 @@ publisher = {Springer}
 <!--## Contact Me-->
 
 <div style="width:100%; margin:0 0; padding:50px 0; background-color:#0B1F59; color:white; text-align:center; box-sizing:border-box;">
-  <h2 style="text-align: center; margin: 0; display: block;">
+  <h2 class="white-line" style="text-align: center; margin: 0; display: block;">
   <img src="icons/bubble-icon.svg" width="24" style="background: transparent;vertical-align: middle;"/>
   <span style="vertical-align: middle;">Get In Touch</span>
 </h2>
