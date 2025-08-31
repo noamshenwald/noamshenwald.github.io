@@ -1,9 +1,10 @@
 <style>
-  /* Reset page margins */
+  /* Reset page margins completely */
   html, body {
     margin: 0 !important;
     padding: 0 !important;
     height: 100%;
+    width: 100%;
   }
 
   /* Stretch markdown container */
@@ -11,10 +12,9 @@
     max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-    box-sizing: border-box;
   }
 
-  /* Kill extra space at top/bottom from first/last elements */
+  /* Ensure first and last child don’t add extra space */
   .markdown-body > :first-child {
     margin-top: 0 !important;
   }
@@ -64,7 +64,7 @@ button:hover {
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
-<div style="width: 100%;padding:100px 10px; background-color: #F5F9FD; box-sizing: border-box;">
+<div style="width:100%; margin:0; padding:100px 10px; background-color:#F5F9FD; box-sizing:border-box;">
     <h1 align="center">
     Noam Shenwald
   </h1>
@@ -396,7 +396,7 @@ publisher = {Springer}
 
 <!--## Contact Me-->
 
-<div style="width: 100%; max-width: 100%; padding: 50px 0; margin: 0; background-color: black; color: white; box-sizing: border-box; text-align: center;">
+<div style="width:100%; margin:0; padding:50px 0; background-color:black; color:white; text-align:center; box-sizing:border-box;">
   <h2>
     <img src="https://cdn-icons-png.flaticon.com/128/2462/2462719.png" width="24" style="filter:invert(1)"/> Get In Touch
   </h2>
