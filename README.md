@@ -83,11 +83,14 @@ h2::after {
 
 <style>
 
-/* Remove extra space caused by empty h1 */
+<style>
+/* Remove the entire title placeholder */
+h1.page-title:empty,
+header.page-header:empty,
 h1:empty {
-    display: none;   /* completely hide the empty heading */
-    margin: 0;       /* remove default margin */
-    padding: 0;      /* remove default padding */
+  display: none;
+  margin: 0;
+  padding: 0;
 }
 </style>
 
@@ -100,7 +103,6 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="width:100%; margin:0; padding:0; background-color:#D4EBFC; box-sizing:border-box;">
   <div style="text-align:center; padding:100px 10px; margin:0;">
-    <h1 style="display:none;"></h1> <!-- hidden page title -->
     <h1>Noam Shenwald</h1>
     <p style="margin:0; font-size: 1.3em;">
       I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by 
