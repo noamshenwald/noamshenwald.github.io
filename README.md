@@ -87,6 +87,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="margin:5px 0;padding:100px">
 <!-- Publication 1 -->
+  <div>
 **Coverage Games**  
 Orna Kupferman, Noam Shenwald  
 CONCUR 2025  
@@ -121,10 +122,12 @@ year      = {2025}
     </pre>
   </div>
 </div>
+</div>
 
 ---
 
 <!-- Publication 2 -->
+<div>
 **Positional-Player Games**  
 Orna Kupferman, Noam Shenwald  
 MFCS 2025  
@@ -157,6 +160,7 @@ year      = {2025}
 }
     </pre>
   </div>
+</div>
 </div>
 
 ---
