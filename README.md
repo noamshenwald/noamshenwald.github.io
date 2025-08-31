@@ -155,7 +155,7 @@ line-height: 1.3;
   color: #854310;
   font-size: 0.85em;
   font-weight: 500;
-  padding: 2px 8px;
+  padding: 2px 10px;
   /*border-radius: 4px;*/
 border-radius: 999px;
 margin-top: 5px;
