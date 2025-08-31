@@ -21,7 +21,7 @@
     background-color: #0366d6;
     color: white;
     border: none;
-    padding: 6px 12px;
+    padding: 12px 24px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s;
