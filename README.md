@@ -110,6 +110,11 @@ header.page-header:empty {
 }
 </style>
 
+<style>
+  .anchor, .octicon-link {
+    display: none !important;
+  }
+</style>
 
 
 <!-- # Noam Shenwald
