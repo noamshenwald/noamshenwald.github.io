@@ -175,6 +175,196 @@ body, .markdown-body {
 }
 </style>
 
+<style>
+/* --- Base styles --- */
+body, .markdown-body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  color: #111827;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+/* Remove underlines from headings */
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: none;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 6px;
+  margin: 8px auto 0;
+  border-radius: 10px;
+  background-color: black;
+}
+
+h2.white-line::after {
+  background-color: white;
+}
+
+/* --- Hero Section --- */
+.hero {
+  width: 100%;
+  padding: 100px 10%;
+  background-color: #E4EBFF;
+  text-align: center;
+  box-sizing: border-box;
+  color: #11182F;
+}
+
+.hero h1 {
+  font-size: 2.3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+/* --- Publications Section --- */
+.publication-container {
+  background-color: #F9FAFB;
+  color: #111827;
+  padding: 20px;
+}
+
+.publication {
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.publication strong {
+  font-size: 1.4em;
+  color: #111;
+  display: block;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.publication .authors {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.publication .conference {
+  font-size: 1.1em;
+  color: #0366d6;
+  margin-bottom: 12px;
+}
+
+.publication .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.pub-btn {
+  padding: 8px 14px;
+  font-size: 0.95em;
+  background-color: #0366d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pub-btn:hover {
+  background-color: #0255b5;
+}
+
+.pub-btn img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* --- Popups --- */
+.popupModal > div {
+  width: 560px;
+  max-width: 90%;
+  height: 380px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.popupModal h2 {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
+.popupModal p, .popupModal pre {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* --- Contact Section --- */
+.contact {
+  width: 100%;
+  padding: 50px 10%;
+  background-color: #172554;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.contact h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.contact h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+</style>
+
+
 
 <!-- # Noam Shenwald
 
