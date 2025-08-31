@@ -144,6 +144,21 @@ line-height: 1.3;
 .publication .conference {
   font-weight: 500;
 }
+  .publication .tags {
+  margin-top: 5px;
+}
+
+.publication .distinguished-paper {
+  display: inline-flex;
+  align-items: center;
+  background-color: #FFD700; /* gold */
+  color: #98672f;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
 .publication .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -356,6 +371,12 @@ year      = {2025}
   <strong>Non-Zero-Sum Games with Multiple Weighted Objectives</strong>
   <div class="authors">Yoav Feinstein, Orna Kupferman, Noam Shenwald</div>
   <div class="conference">TACAS 2025</div>
+  <div class="tags">
+    <span class="distinguished-paper">
+      <img src="icons/dist-paper-icon.svg" width="16" style="background: transparent; vertical-align: middle; margin-right: 4px;"/>
+      Distinguished Paper
+    </span>
+  </div>
   <div class="buttons">
     <button class="pub-btn" onclick="document.getElementById('abstract3').style.display='flex'">
       <img src="icons/abstract-icon.svg" width="13" style="background: transparent; padding-right: 5px; vertical-align: middle; padding-bottom: 3px;"/>Abstract
