@@ -79,7 +79,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 
 <!-- Publications Section -->
-<div style="margin:0 0; padding:0px;background-color:red;">
+<div style="margin:0; padding:0;background-color:#F7F9FF;">
 <h2 align="center">
   <img src="https://cdn-icons-png.flaticon.com/128/14382/14382061.png" width="24"/> Publications
 </h2>
