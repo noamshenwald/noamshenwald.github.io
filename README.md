@@ -1,16 +1,17 @@
 <style>
+  /* Reset page margins */
   html, body {
     margin: 0 !important;
     padding: 0 !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    height: 100%;
   }
 
+  /* Stretch markdown container */
   .markdown-body {
-    margin: 0 !important;
-    padding: 0 !important;
     max-width: 100% !important;
-    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 1rem; /* keep a little breathing room on sides */
+    box-sizing: border-box;
   }
 </style>
 
