@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 h2::after {
   content: "";
   display: block;
-  width: 60%;
+  width: 10%;
   height: 6px;
   margin: 8px auto 0;
   border-radius: 10px;
