@@ -78,7 +78,7 @@ h6::after {
 }
 </style>
 
-<!--<style>
+<style>
 /* Make lines under headings shorter and thicker */
 h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
     width: 5%;              /* shorter line */
@@ -88,7 +88,7 @@ h1 + hr, h2 + hr, h3 + hr, h4 + hr, h5 + hr, h6 + hr {
     margin: auto auto;       /* center the line */
     align: center;
 }
-</style> -->
+</style> 
 
 <!-- # Noam Shenwald
 
@@ -113,7 +113,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 <div style="margin-top: 0;margin-bottom: 0; padding: 20px 20px;background-color:#F7F9FF;">
 <h2 align="center">
   <img src="icons/book-icon.svg" width="24" style="background: transparent;"/> Publications
-</h2>
+</h2><hr>
 
 <div style="margin-top: 0;margin-bottom: 0; padding:20px 0px;">
 
