@@ -120,7 +120,7 @@ h2.white-line::after {
   font-size: 1.2em; /* Paper title */
   color: black;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   line-height: 1.3;
 }
 
@@ -129,14 +129,16 @@ h2.white-line::after {
   color: #0366d6;
   /*display: block;*/
  display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+line-height: 1.3;
 }
 
 .publication .authors {
   font-size: 1em;
   color: #555;
 display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+line-height: 1.3;
 }
 
 .publication .buttons {
@@ -147,7 +149,7 @@ display: block;
 }
 
 .pub-btn {
-  padding: 6px 12px;
+  padding: 6px 10px;
   font-size: 0.95em;
   background-color: #0366d6;
   color: white;
