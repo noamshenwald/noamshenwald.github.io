@@ -153,12 +153,12 @@ line-height: 1.3;
   align-items: center;
   background-color: #EDB50C; /* gold */
   color: #854310;
-  font-size: 0.85em;
+  font-size: 0.75em;
   font-weight: 500;
-  padding: 2px 10px;
+  padding: 2px 12px;
   /*border-radius: 4px;*/
 border-radius: 999px;
-margin-top: 5px;
+margin-top: 6px;
 }
 
 .publication .buttons {
