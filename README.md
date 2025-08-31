@@ -119,7 +119,7 @@ My research focuses on the connection between reactive synthesis and algorithmic
 
 <div style="width:100%; margin:0; padding:0; background-color:#D4EBFC; box-sizing:border-box;">
   <div style="text-align:center; padding:100px 10px; margin:0;">
-    <h1>Noam Shenwald</h1>
+    <p style="margin:0; font-size: 2em;">Noam Shenwald<p>
     <p style="margin:0; font-size: 1.3em;">
       I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by 
       <a href="https://www.cs.huji.ac.il/~ornak/" target="_blank" style="color: #1a0dab; text-decoration: none;">
