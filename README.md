@@ -64,7 +64,7 @@ button:hover {
 I'm a PhD student in Computer Science at the Hebrew University of Jerusalem, advised by [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/).  
 My research focuses on the connection between reactive synthesis and algorithmic game theory. -->
 
-<div style="width:100%; margin:0; padding:100px 10px; background-color:#F5F9FD; box-sizing:border-box;">
+<div style="width:100%; margin:0; padding:100px 10px; background-color:#D4EBFC; box-sizing:border-box;">
     <h1 align="center">
     Noam Shenwald
   </h1>
@@ -409,6 +409,7 @@ publisher = {Springer}
   <p style="font-size: 1.2em;">
     email: firstname.lastname@mail.huji.ac.il
   </p>
+  <p>© 2025 Noam Shenwald. All rights reserved.</p>
 </div>
 
 
