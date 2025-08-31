@@ -115,6 +115,19 @@ h2.white-line::after {
   padding: 15px 20px;
   box-sizing: border-box;
 }
+  .publication {
+  background-color: #ffffff; /* card background */
+  padding: 20px;             /* space inside */
+  margin-bottom: 20px;       /* space between cards */
+  border-radius: 12px;       /* rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* subtle shadow */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.publication:hover {
+  transform: translateY(-2px); /* slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
 
 .publication strong {
   font-size: 1.2em; /* Paper title */
