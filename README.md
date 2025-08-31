@@ -23,12 +23,6 @@
   .markdown-body > :last-child {
     margin-bottom: 0 !important;
   }
-
-  /* Remove default spacing from headings and paragraphs */
-  h1, h2, h3, p {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
 </style>
 
 <style>
