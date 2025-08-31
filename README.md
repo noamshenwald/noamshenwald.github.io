@@ -10,7 +10,7 @@
   .markdown-body {
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 0 1rem; /* keep a little breathing room on sides */
+    padding: 0 !important; 
     box-sizing: border-box;
   }
 </style>
