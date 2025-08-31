@@ -1,8 +1,7 @@
 #theme: jekyll-theme-minimal
 #title: Noam Shenwald's homepage
 #description: Bookmark this to keep an eye on my project updates!
-title: ""
-pagetitle: "Noam Shenwald"
-format:
-  html:
-    page-layout: full
+title: "Noam Shenwald"
+markdown: kramdown
+    kramdown:
+      auto_ids: false
