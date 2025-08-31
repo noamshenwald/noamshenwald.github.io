@@ -33,16 +33,26 @@ a.anchorjs-link {
   padding: 0 !important;
 }
 
+/* Hide empty headers if still reserving space */
+h1:empty,
+header.page-header:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* === Headings === */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: 600;
   text-align: center;
-  border-bottom: none;
+  border-bottom: none; /* remove unwanted lines */
   margin-bottom: 15px;
+  position: relative;
 }
 
+/* Decorative line for h2 */
 h2::after {
   content: "";
   display: block;
@@ -207,7 +217,6 @@ h2.white-line::after {
   margin-right: 5px;
 }
 </style>
-
 
 
 
